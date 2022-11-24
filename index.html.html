@@ -7,44 +7,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .one {
-            background-attachment: rgb(117, 0, 128);
-            widows: 250px;
-            height: 250px;
+        #navbar {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 100px;
+        }
 
+        #navbar li {
+            border-left: 10px solid#666;
+            border-bottom: 1px solid#666;
+        }
+
+        #navbar a {
+            background-color: aliceblue;
+            color: #fff;
+            padding: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border-left: 5px solid#33ADFF;
+            display: block;
         }
     </style>
 </head>
-<h1>Новогодние желания
-</h1>
+
 
 <body>
-    <img src="img1.jpg" alt="cнеговик">
-    <form>   
-        <div class="center">выбирай
-        <select class="big red">
-            <option value="дед">подарок</option>
-            <option value="снег">снег</option>
-            <option value="ром">ром</option>
-        </select>
-        <div >
-            <input placeholder="имя" type="text">
-        </div>
-        <div>
-            <input class placeholder="фамилия" type="text">
-        </div>
-        <div>
-            <input placeholder="телефон" type="text">
-        </div>
-        <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
-    </form>
-
-
+    <h1>конный клуб Макетт
+    </h1>
+    <ul id="navbar">
+        <li> <a href="http://google.com" target="_blank">Главная</a></li>
+        <li> <a href="#">Новости</a></li>
+        <li> <a href="#">Контакты</a></li>
+        <li> <a href="#">О нас</a></li>
+    </ul>
+    
+   
+      
 </body>
 
 
 
 
-</body>
+
 
 </html>
